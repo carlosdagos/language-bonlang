@@ -1,9 +1,11 @@
 {
     "name": "language-bonlang",
+    "author": "Carlos D'Agostino <m@cdagostino.io>",
     "version": "0.0.1",
     "description": "Syntax highlighting for Bonlang",
     "license": "MIT",
 	"readmeFilename": "README.md",
+    "repository": "https://github.com/charlydagos/language-bonlang",
     "engines": {
         "atom": ">=1.9.8"
     }
