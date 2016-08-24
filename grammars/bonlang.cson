@@ -33,8 +33,12 @@
         'name': 'meta.alias.Bonlang'
     }
     {
-        'match': '(?:(?=[\\p{Ll}_\\p{Lu}\\p{Lt}])(?<![\\p{Ll}_\\p{Lu}\\p{Lt}]))(if|then|else|import|lambda)(?:(?<=[\\p{Ll}_\\p{Lu}\\p{Lt}\\p{Nd}\'])(?![\\p{Ll}_\\p{Lu}\\p{Lt}\\p{Nd}\']))'
+        'match': '(?:(?=[\\p{Ll}_\\p{Lu}\\p{Lt}])(?<![\\p{Ll}_\\p{Lu}\\p{Lt}]))(if|then|else|import|lambda|match)(?:(?<=[\\p{Ll}_\\p{Lu}\\p{Lt}\\p{Nd}\'])(?![\\p{Ll}_\\p{Lu}\\p{Lt}\\p{Nd}\']))'
         'name': 'keyword.control.Bonlang'
+    }
+    {
+        'match': '(true|false|[0-9]+|"(?:[^"\\\\]|\\\\.)*")'
+        'name': 'variable.literal.Bonlang'
     }
     {
         'begin': '/\\*'
