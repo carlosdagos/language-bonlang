@@ -39,7 +39,7 @@
                 'name': 'entity.name.tag.Bonlang'
     }
     {
-        'match' : '([^\\s\(\\)]*\\b\\s+\\$)'
+        'match' : '([\\w\x3A\x21\x23\x24\x25\x26\x2A\x2B\x2E\x2F\x3C\x3D\x3E\x3F\x40\x5C\x5C\x5E\x7C\x7E\xCE\xBB\xC2\xAC\xC3\x97\xE2\x89\x88\x27\x5F\x2D]+\\s+\\$)'
         'captures':
             '1':
                 'name': 'entity.name.function.call.Bonlang'
